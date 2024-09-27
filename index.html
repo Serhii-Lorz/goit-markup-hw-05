@@ -44,6 +44,37 @@
                     <button type="button" class="button">Order Service</button>
                 </div>
             </section>
+            <!-- !! Form !! -->
+            <div class="modal-overlay">
+                <div class="modal">
+                    <form class="form" name="order-form" autocomplete="off" novalidate>
+                        <p class="form-p">Leave your contacts and we will call you back</p>
+                        <label class="form-label">
+                            Name
+                            <input type="text" class="form-input" name="username" autofocus required />
+                        </label>
+                        <label class="form-label">
+                            Phone
+                            <input type="tel" class="form-input" name="phone" required />
+                        </label>
+                        <label class="form-label">
+                            Email
+                            <input type="email" class="form-input" name="email" required />
+                        </label>
+                        <label class="form-label">
+                            Comment
+                            <textarea type="text" class="form-input" name="comment" placeholder="Text input" required></textarea>
+                        </label>
+                        <label class="form-label-checkbox">
+                            <input type="checkbox" class="form-checkbox" name="agree" value="" required>
+                            <p class="form-agree-p">I accept the terms and conditions of the <span class="form-agree-span"><a
+                                        class="form-agree-a" href="">Privacy Policy</a></span></p>
+                        </label>
+                        <button class="form-button" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            <!-- !! Form !! -->
             <section class="second-section">
                 <div class="container">
                     <h2 class="visually-hidden">Features</h2>
@@ -51,7 +82,7 @@
                         <li class="features-li">
                             <div class="second-section-svg">
                                 <svg class="icon" width="64" height="64" viewBox="0 0 32 32">
-                                    <use href="./images/svg-icon.svg#icon-antenna" />
+                                    <use href="./images/svg-icon.svg#icon-antenna-1" />
                                 </svg>
                             </div>
                             <h3 class="title">Strategy</h3>
@@ -62,7 +93,7 @@
                         <li class="features-li">
                             <div class="second-section-svg">
                                 <svg class="icon" width="64" height="64" viewBox="0 0 32 32">
-                                    <use href="./images/svg-icon.svg#icon-clock"></use>
+                                    <use href="./images/svg-icon.svg#icon-clock-1"></use>
                                 </svg>
                             </div>
                             <h3 class="title">Punctuality</h3>
@@ -73,7 +104,7 @@
                         <li class="features-li">
                             <div class="second-section-svg">
                                 <svg class="icon" width="64" height="64" viewBox="0 0 32 32">
-                                    <use href="./images/svg-icon.svg#icon-diagram"></use>
+                                    <use href="./images/svg-icon.svg#icon-diagram-1"></use>
                                 </svg>
                             </div>
                             <h3 class="title">Diligence</h3>
@@ -85,7 +116,7 @@
                         <li class="features-li">
                             <div class="second-section-svg">
                                 <svg class="icon" width="64" height="64" viewBox="0 0 32 32">
-                                    <use href="./images/svg-icon.svg#icon-astronaut"></use>
+                                    <use href="./images/svg-icon.svg#icon-astronaut-1"></use>
                                 </svg>
                             </div>
                             <h3 class="title">Technologies</h3>
@@ -386,44 +417,6 @@
                 </div>
             </div>
         </footer>
-        <!-- !! Form !! -->
-        <div class="modal-overlay">
-            <div class="modal">
-                <form class="form" name="order-form" autocomplete="off" novalidate>
-                    <div class="form-div">
-                        <svg class="icon" width="24" height="24" viewBox="0 0 32 32">
-                            <use href="./images/svg-icon.svg#icon-close" />
-                        </svg>
-                    </div>
-                    <p class="form-p">Leave your contacts and we will call you back</p>
-                    <label class="form-label">
-                        Name
-                        <input type="text" class="form-input" name="username" autofocus required />
-                    </label>
-                    <label class="form-label">
-                        Phone
-                        <input type="tel" class="form-input" name="phone" required />
-                    </label>
-                    <label class="form-label">
-                        Email
-                        <input type="email" class="form-input" name="email" required />
-                    </label>
-                    <label class="form-label">
-                        Comment
-                        <textarea class="form-input" name="comment" placeholder="Text input" required></textarea>
-                    </label>
-                    <label class="form-label-checkbox">
-                        <input type="checkbox" class="form-checkbox" name="agree" value="" required>
-                        I accept the terms and conditions of the <span class="form-agree-span"><a class="form-agree-a"
-                                href="">Privacy Policy</a></span>
-                    </label>
-        
-        
-                    <button class="form-button" type="submit">Send</button>
-                </form>
-            </div>
-        </div>
-        <!-- !! Form !! -->
     </div>
 </body>
 </html>
