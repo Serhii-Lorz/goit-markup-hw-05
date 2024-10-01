@@ -625,8 +625,8 @@ img {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     z-index: 999;
-    opacity: 0;
-    pointer-events: none;
+    /* opacity: 0;
+    pointer-events: none; */
 }
 
 .modal-overflow.is-open {
@@ -732,8 +732,7 @@ img {
     fill:#F4F4FD;
 }
 
-.form-input:focus {
-    border-color: #4D5AE5;
+.form-input:focus+svg {
     fill: #4D5AE5;
 }
 
