@@ -793,7 +793,7 @@ img {
     fill: transparent;
 }
 
-.footer .visually-hidden:checked {
+.form-checkbox-div > input:checked {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
